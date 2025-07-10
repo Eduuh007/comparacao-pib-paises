@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Comparação de PIB entre Países</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Comparação de PIB entre Países</h1>
+    </header>
+
+    <main>
+        <section class="controls">
+            <label for="country-select">Selecione País:</label>
+            <select id="country-select">
+                <option value="brasil">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="china">China</option>
+                <option value="india">Índia</option>
+            </select>
+        </section>
+
+        <section class="chart-container">
+            <canvas id="pibChart"></canvas>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
