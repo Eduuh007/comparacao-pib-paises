@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💹 Comparação de PIB entre Países
 
 Este projeto apresenta um gráfico interativo que compara o Produto Interno Bruto (PIB) de países como Brasil, Estados Unidos, China e Índia ao longo dos anos. Através de uma interface simples e intuitiva, você pode selecionar diferentes países para visualizar suas evoluções econômicas.
